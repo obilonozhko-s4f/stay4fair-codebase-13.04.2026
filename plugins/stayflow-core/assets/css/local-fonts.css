@@ -1,0 +1,63 @@
+/* ==========================================
+ * RU: Настройка локальных шрифтов Manrope (WOFF2)
+ * EN: Manrope Local Font Setup (WOFF2)
+ * Version: 1.0.2 (7 Weights)
+ * ========================================== */
+
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-ExtraLight.woff2') format('woff2'); 
+    font-weight: 200; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-Light.woff2') format('woff2'); 
+    font-weight: 300; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-Regular.woff2') format('woff2'); 
+    font-weight: 400; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-Medium.woff2') format('woff2'); 
+    font-weight: 500; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-SemiBold.woff2') format('woff2'); 
+    font-weight: 600; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-Bold.woff2') format('woff2'); 
+    font-weight: 700; 
+    font-style: normal; 
+    font-display: swap; 
+}
+@font-face { 
+    font-family: 'Manrope'; 
+    src: url('../fonts/manrope/Manrope-ExtraBold.woff2') format('woff2'); 
+    font-weight: 800; 
+    font-style: normal; 
+    font-display: swap; 
+}
+
+/* ==========================================
+ * RU: Принудительное назначение шрифта (Global Override)
+ * EN: Force font for the entire site (Global Override)
+ * ========================================== */
+body, html, h1, h2, h3, h4, h5, h6, p, a, span, div, input, button, textarea, select, .elementor-widget-heading {
+    font-family: 'Manrope', sans-serif !important;
+}
